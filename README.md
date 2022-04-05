@@ -20,3 +20,30 @@ At this level, we need to link our functionality to the relevant jsp pages, here
 Use the filter to prevent an unauthenticated user from accessing the functionality and redirect it to the Login page.
 
 Using the connection class to access the database
+
+## Technologies
+* Java 11
+* Maven 4.0.0
+* MavenCheckstyle 3.1.1
+* Tomcat 9.0.50
+* MySQL 8.0.22
+* Servlet 4.0.1
+* JSTL 1.2
+* JDBC
+
+## How to start
+1. Configure Apache Tomcat for your IDE
+2. Install MySQL and MySQL Workbench
+3. Use resources/init_db.sql for creating a Schema and tables
+4. Configure ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER
+5. Configure the tomcat library path in the startup settings
+
+## All functional
+* create new Driver
+* create new Car
+* create new Manufacturer
+* add driver to car
+* display all Drivers
+* display all Cars
+* display all Manufacturers
+* all cars by driver
